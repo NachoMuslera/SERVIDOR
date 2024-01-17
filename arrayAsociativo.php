@@ -22,5 +22,6 @@
             echo "SEXO MASCULINO";
         }
     }
+    ?>
 </body>
 </html>
