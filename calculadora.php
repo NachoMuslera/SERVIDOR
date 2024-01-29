@@ -39,7 +39,7 @@
         }
             return $resultado;
     }
-
+    
     echo "El resultado es ".calculadora(10,5,"+");
     echo "<br>************<br>";
     echo "El resultado es ".calculadora(10,5,"-");
