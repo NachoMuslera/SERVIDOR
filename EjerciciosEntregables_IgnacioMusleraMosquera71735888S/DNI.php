@@ -39,12 +39,23 @@
             "apellido2" => "Rey"
         ],
 
-        "7776669S" => [
+        "77766692S" => [
             "nombre" => "Luffy",
             "apellido1" => "Monkey",
             "apellido2" => "D"
         ]
     ];
+    
+    foreach($personas as $clave=>$valor){
+        echo "El DNI es ".$clave." y su nombre es ".$valor."<br>";
+    }
+
+    $posicion1=$agenda["77766692S"];
+    $posicion2=$agenda["71735888S"];
+
+    echo"La posicion 1 es ".$posicion1."<br>";
+    echo"La posicion 2 es ".$posicion2."<br>";
+
 ?>
 </body>
 </html>
